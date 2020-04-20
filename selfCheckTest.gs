@@ -17,7 +17,7 @@ function main() {
   } 
   else {
     const status = 'FAIL - ';
-    const body = 'Self check test failed. Check group mail settings.';
+    const body = 'Self check test failed. Check group mail moderation settings.';
     sendMail(recipient,status,body);
   }
   deleteOldTest(labelName);
